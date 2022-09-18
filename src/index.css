@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Roboto', sans-serif;
+    background: black;
+  }
+
+  input {
+    font-family: 'Roboto', sans-serif;
+    border-bottom: 1px solid #AAAAAA;
+    padding: 0 10px;
+  }
+
+  #hash {
+    color: #3EA6FF;
+  }
+  :focus {
+    outline: none;
+  }
+
+  #download {
+    transition: all 0.3s ease;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    background: #FF0000;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 4px;
+  }
+
+  #download:hover {
+    background: #DD0000;
+  }
+  
+#comment {
+  background: #181818;
+}
+
+  @media screen and (max-width: 1028px) {
+    #comment {
+      width: 100%;
+    }
+    #editcomment {
+      width: 100%;
+    }
+
+    #counter {
+      margin-top: -10px;
+    }
+
+
+    #buttons span {
+      margin-top: -2px;
+    }
+  }
+    
+}
