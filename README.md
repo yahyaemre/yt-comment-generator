@@ -1,5 +1,5 @@
 # yt-comment-generator
-A YouTube fake comment generator built with React.
+A YouTube Fake Comment Generator
 
 - You can generate fake & prank YouTube comments with this app.
 - Built with React and Tailwind
